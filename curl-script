@@ -1,0 +1,1 @@
+curl -X POST -H "Authorization: key=<server_key>" -H "Content-Type: application/json" https://fcm.googleapis.com/fcm/send -d "{  \"data\": {    \"notification\": {       \"title\": \"FCM Message\",        \"body\": \"This is an FCM Message\", \"icon\":\"icon.png\"    }  },  \"to\": \"<the receiver Id, you will see this in the html page when you accept the notification request\"}
